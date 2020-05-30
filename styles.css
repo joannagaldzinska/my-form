@@ -32,8 +32,16 @@
         text-align: center;
       }
 
+      #right-column fieldset p{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+      }
+
     @media(max-width: 900px){
-       #formwrapper{
+        #formwrapper{
          flex-direction: column;
        }
 
@@ -47,4 +55,5 @@
         width: 100%;
         padding: 0;
       }
-     }
+    }
+    

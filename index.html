@@ -6,22 +6,8 @@
     <link rel="stylesheet" href="styles.css"> 
     
     <style>
-     @media(max-width: 900px){
-       #formwrapper{
-         flex-direction: column;
-       }
 
-      #left-column{
-        width: 100%;
-        padding: 1%;
-        padding: 0;
-      }
 
-      #right-column{
-        width: 100%;
-        padding: 0;
-      }
-     }
 
     </style>
   </head>
@@ -43,9 +29,31 @@
         <section id="right-column">
           <fieldset>
             <legend>Block Three</legend>
+            <p>
+             <span><input type="radio" name="color" value="red">RED</span>
+             <span><input type="radio" name="color" value="green">GREEN</span>
+             <span><input type="radio" name="color" value="blue">BLUE</span>
+             <span><input type="radio" name="color" value="yellow">YELLOW</span>
+             <span><input type="radio" name="color" value="red">WHITE</span>
+             <span><input type="radio" name="color" value="red">BLACK</span>
+            </p>
+
+            <p>
+              <span><input type="checkbox" name="fruit" value="orange">ORANGE</span>
+              <span><input type="checkbox" name="fruit" value="apple">APPLE</span>
+              <span><input type="checkbox" name="fruit" value="pear">PEAR</span>
+              <span><input type="checkbox" name="fruit" value="kiwi">KIWI</span>
+              <span><input type="checkbox" name="fruit" value="banana">BANANA</span>
+              <span><input type="checkbox" name="fruit" value="mango">MANGO</span>
+            </p>
+
+
           </fieldset>
+
           <fieldset>
             <legend>Block Four</legend>
+            <textarea rows="4" cols="45" placeholder="What did you do today?>"></textarea>
+            <p><input type="submit" value="Submit"></p>
           </fieldset>
 
         </section>
